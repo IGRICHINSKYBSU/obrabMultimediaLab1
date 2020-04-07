@@ -26,3 +26,5 @@ history = model.fit(train_images, train_labels, epochs=10, callbacks=[tensor_boa
 validation_data=(test_images, test_labels))
 test = model.evaluate(train_images[0], test_labels[0])
 print(test)
+
+main()
