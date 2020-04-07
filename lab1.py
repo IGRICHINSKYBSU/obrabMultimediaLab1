@@ -6,6 +6,7 @@ def createModel():
   model = models.Sequential()
   model.add(layers.Flatten(input_shape=(32, 32, 3)))
   model.add(layers.Dense(128, activation='relu'))
+  model.add(layers.Dense(128, activation='relu'))
   model.add(layers.Dense(64, activation='relu'))
   model.add(layers.Dense(64, activation='relu'))
   model.add(layers.Dense(10, activation='softmax'))
