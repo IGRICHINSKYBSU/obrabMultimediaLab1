@@ -19,3 +19,4 @@
 - оптимизатор adam
 - функция потерь sparse_categorical_crossentropy
 - метрика accuracy
+##Точность на валидационной выборке: val_acc=0.46
